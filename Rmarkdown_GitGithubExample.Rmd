@@ -5,6 +5,47 @@ date: "September 13, 2018"
 output: html_document
 ---
 
+Lecture
+Why use Git
+Provides version control
+Difficult to use sometimes - because it will be tedious to keep up with the updates
+But keeps things very organized - don't have to have multiple version files locally
+
+Git will keep track of each version you commit to - you can also comment on the versions to explain why you did it
+
+Git will remind you, keep you acccountable, record what changes you made
+
+Git watches everything inside of the directory you assigned it to - data file, markdown file, plots exporting etc.
+
+Will show you what changed when it changed
+Will keep track of what other people do as well
+Makes you resolve conflicts in real time
+
+Git is the local program - while GitHub is like drop box but GitHub won't update automatically need to push
+
+Rstudio helps you to use Git - can use Git seperately for example source tree
+
+Commit will keep track what has changed from previous file - need to write your own message to yourself as to what changed and why
+
+Can review on Github what someone else is doing on different/same documents - read the summary rather than running through the whole document
+
+Need to save the document in Rstudio first
+This creates a file to be saved then on Git and Github
+
+Don't put patient data on dropbox - cannot protect confidentiality
+
+Branch, merge, fork and clone etc. other stuff
+
+Creating repository - can be public or private amongst collaborators or just yourself
+
+Create a local repository on your own computer for your R project
+
+So instead of making a normal R project not linked to Git - make a project that is linked to Git
+
+Git tab is where you write in the comments, interact with Git 
+
+ReadMe - can ignore this but it is a list of document types that Git does not keep track of - .Rproj.user etc.
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
