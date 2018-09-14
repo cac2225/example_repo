@@ -62,6 +62,10 @@ Read me can act as navigation table of contents, detail on project,
 
 Github treats Md files differently from other files
 
+My own local version will not have changes until Ipull changes made and pushed to github
+
+Example code
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
